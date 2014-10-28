@@ -1,0 +1,127 @@
+/* 
+ * Name: Filmtipset Dark Theme 
+ * Author: buchno
+ *
+ * Inspired by Sweclockers Dark Theme
+ * https://github.com/Blargmode/Sweclockers-Dark-Theme
+ * */
+
+/* Background */
+body, .threadheadnew, .social, #topSearchField {
+background-color:#000000 !important; /* Black */
+}
+
+#element, .big_canvas, #ticker, #acceptCookiesDiv, .sprinkle-widget, tr, .header, .header_small_small, .thread, .message_old, .message_old_answer, .message_body_content, .ShowExtraInfo, .threadheadold {
+background-color:#111111 !important; /* Black grey */
+}
+
+.headnew, .postEdited, .commenthead, .message_new, .message_new_answer, .message_content {
+background-color: #222222 !important; /* Dark grey */
+}
+
+.mess {
+background-color:#111111 !important; /* Black */
+}
+
+#gradeStack1 {
+background-color: #544d3e !important;
+}
+
+#gradeStack2 {
+background-color: #7a5f69 !important;
+}
+
+#gradeStack3 {
+background-color: #aba457 !important;
+}
+
+#gradeStack4 {
+background-color: #7b95a6 !important;
+}
+
+#gradeStack5 {
+background-color: #678e5a !important;
+}
+
+.row, .back_row, .front_row {
+background-image: none !important;
+}
+
+
+/* Border */
+
+.big_canvas, .threadheadnew, #ticker, .social, #topSearchField, .row, .threadheadold {
+border-left: 1px solid #6A6A6A !important;
+}
+
+.big_canvas, #ticker, #topSearchField {
+border-right: 1px solid #6A6A6A !important;
+}
+
+.big_canvas, .ticker-slide, #topSearchField, .blockrow td, .blockheader {
+border-bottom: 1px solid #6A6A6A !important;
+}
+
+#topSearchField {
+border-top: 1px solid #6A6A6A !important;
+}
+
+
+.rightlinkheader, .article_header {
+border-bottom: 1px solid #c15200 !important;
+}
+
+table, .headnew, .mess, .message_sort_header, .message_body_content {
+border-color: #6A6A6A !important;
+}
+
+div, td, .social {
+border-top: none !important;
+}
+
+.message_sort_header {
+border-left: none !important;
+}
+
+.social, .message_sort_header {
+border-right: none !important;
+}
+
+.social {
+border-bottom: none !important;
+}
+
+
+/* Text */
+
+font, h1, div, input, select, #head, .pagetitle, .forumfronttext, #siteStats, .sprinkle-title, .article_header_new, .movie_header, .bold, textarea {
+color:#8A8A8A !important; /* Grey */
+}
+
+#topSearchField {
+color: #FFF !important;
+}
+
+.article_header, .rightlinkheader {
+color: #c15200 !important; /* Orange */
+}
+
+
+/* Links */
+
+a:link, a:visited, a.no_change:link, a.no_change:visited, .sprinkle-source {
+color: #c15200 !important;
+}
+
+a.movie:link, a.movie:visited {
+color: #444 !important;
+}
+
+a:hover {
+text-decoration: underline !important;
+}
+
+
+/* Images */
+
+
