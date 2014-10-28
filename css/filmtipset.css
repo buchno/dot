@@ -1,3 +1,4 @@
+@-moz-document url-prefix("http://nyheter24.se/filmtipset/") {
 /* 
  * Name: Filmtipset Dark Theme 
  * Author: buchno
@@ -125,3 +126,4 @@ text-decoration: underline !important;
 /* Images */
 
 
+}
