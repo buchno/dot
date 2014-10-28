@@ -16,7 +16,7 @@ background-color:#000000 !important; /* Black */
 background-color:#111111 !important; /* Black grey */
 }
 
-.headnew, .postEdited, .commenthead, .message_new, .message_new_answer, .message_content {
+.headnew, .postEdited, .commenthead, .message_new, .message_new_answer, .message_content, .headold, .headnew, .headoldAdmin, .headnewAdmin {
 background-color: #222222 !important; /* Dark grey */
 }
 
