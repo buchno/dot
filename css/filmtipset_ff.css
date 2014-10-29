@@ -47,7 +47,7 @@ background-image: none !important;
 
 /* Border */
 
-select, textarea, input, #topSearchField, .movie_pop {
+select, textarea, input, #topSearchField, .movie_pop, .headnew, .headold {
 border-top: 1px solid #6A6A6A !important;
 }
 
