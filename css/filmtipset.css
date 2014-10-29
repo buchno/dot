@@ -12,16 +12,12 @@ body, .threadheadnew, .social, #topSearchField {
 background-color:#000000 !important; /* Black */
 }
 
-#element, .big_canvas, #ticker, #acceptCookiesDiv, .sprinkle-widget, tr, .header, .header_small_small, .thread, .message_old, .message_old_answer, .message_body_content, .ShowExtraInfo, .threadheadold {
+select, textarea, tr, input, #element, #ticker, #acceptCookiesDiv, .big_canvas, .sprinkle-widget, .header, .header_small_small, .thread, .message_old, .message_old_answer, .message_body_content, .ShowExtraInfo, .threadheadold, .mess, .movie_pop {
 background-color:#111111 !important; /* Black grey */
 }
 
 .headnew, .postEdited, .commenthead, .message_new, .message_new_answer, .message_content, .headold, .headnew, .headoldAdmin, .headnewAdmin {
 background-color: #222222 !important; /* Dark grey */
-}
-
-.mess {
-background-color:#111111 !important; /* Black */
 }
 
 #gradeStack1 {
@@ -47,24 +43,24 @@ background-color: #678e5a !important;
 .row, .back_row, .front_row {
 background-image: none !important;
 }
-
+  
 
 /* Border */
 
-.big_canvas, .threadheadnew, #ticker, .social, #topSearchField, .row, .threadheadold {
+select, textarea, input, #topSearchField, .movie_pop {
+border-top: 1px solid #6A6A6A !important;
+}
+
+select, textarea, input, #ticker, #topSearchField, .big_canvas, .threadheadnew, .social, .row, .threadheadold {
 border-left: 1px solid #6A6A6A !important;
 }
 
-.big_canvas, #ticker, #topSearchField {
+select, textarea, input, #ticker, #topSearchField, .big_canvas {
 border-right: 1px solid #6A6A6A !important;
 }
 
-.big_canvas, .ticker-slide, #topSearchField, .blockrow td, .blockheader {
+select, textarea, input, .big_canvas, .ticker-slide, #topSearchField, .blockrow td, .blockheader {
 border-bottom: 1px solid #6A6A6A !important;
-}
-
-#topSearchField {
-border-top: 1px solid #6A6A6A !important;
 }
 
 
@@ -72,7 +68,7 @@ border-top: 1px solid #6A6A6A !important;
 border-bottom: 1px solid #c15200 !important;
 }
 
-table, .headnew, .mess, .message_sort_header, .message_body_content {
+table, .headnew, .mess, .message_sort_header, .message_body_content, .movie_pop {
 border-color: #6A6A6A !important;
 }
 
@@ -95,7 +91,11 @@ border-bottom: none !important;
 
 /* Text */
 
-font, h1, div, input, select, #head, .pagetitle, .forumfronttext, #siteStats, .sprinkle-title, .article_header_new, .movie_header, .bold, textarea {
+input[type=checkbox]:checked ~ div {
+   background: red;
+}
+
+font, h1, div, input, select, textarea, #head, .pagetitle, .forumfronttext, #siteStats, .sprinkle-title, .article_header_new, .movie_header, .bold {
 color:#8A8A8A !important; /* Grey */
 }
 
@@ -124,5 +124,4 @@ text-decoration: underline !important;
 
 
 /* Images */
-
 
