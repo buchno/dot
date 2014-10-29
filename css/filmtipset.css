@@ -68,7 +68,7 @@ border-bottom: 1px solid #6A6A6A !important;
 border-bottom: 1px solid #c15200 !important;
 }
 
-table, .headnew, .mess, .message_sort_header, .message_body_content, .movie_pop {
+table, .headnew, .headold, .mess, .message_sort_header, .message_body_content, .movie_pop {
 border-color: #6A6A6A !important;
 }
 
