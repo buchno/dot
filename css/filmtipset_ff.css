@@ -16,8 +16,12 @@ select, textarea, tr, input, #element, #ticker, #acceptCookiesDiv, .big_canvas, 
 background-color:#111111 !important; /* Black grey */
 }
 
-.headnew, .postEdited, .commenthead, .message_new, .message_new_answer, .message_content, .headold, .headnew, .headoldAdmin, .threadheadold {
+.headnew, .postEdited, .commenthead, .message_new, .message_new_answer, .message_content, .headold, .headnew, .headoldAdmin, .threadheadnew, .headnewAdmin {
 background-color: #222222 !important; /* Dark grey */
+}
+
+.threadheadreply {  
+background-color: #303030 !important;
 }
 
 #gradeStack1 {
@@ -28,7 +32,7 @@ background-color: #544d3e !important;
 background-color: #7a5f69 !important;
 }
 
-#gradeStack3, .threadheadreply {
+#gradeStack3 {
 background-color: #aba457 !important;
 }
 
@@ -36,7 +40,7 @@ background-color: #aba457 !important;
 background-color: #7b95a6 !important;
 }
 
-#gradeStack5, .headnew, .threadheadnew, .headnewAdmin {
+#gradeStack5 {
 background-color: #678e5a !important;
 }
 

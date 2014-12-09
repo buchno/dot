@@ -8,7 +8,7 @@
  * */
 
 /* Background */
-body, .threadheadnew, .social, #topSearchField, .odd {
+body, .social, #topSearchField, .odd {
 background-color:#000000 !important; /* Black */
 }
 
@@ -16,8 +16,12 @@ select, textarea, tr, input, #element, #ticker, #acceptCookiesDiv, .big_canvas, 
 background-color:#111111 !important; /* Black grey */
 }
 
-.headnew, .postEdited, .commenthead, .message_new, .message_new_answer, .message_content, .headold, .headnew, .headoldAdmin, .headnewAdmin {
+.headnew, .postEdited, .commenthead, .message_new, .message_new_answer, .message_content, .headold, .headnew, .headoldAdmin, .threadheadnew, .headnewAdmin {
 background-color: #222222 !important; /* Dark grey */
+}
+
+.threadheadreply {  
+background-color: #303030 !important;
 }
 
 #gradeStack1 {
