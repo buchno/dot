@@ -12,7 +12,7 @@ body, .threadheadnew, .social, #topSearchField, .odd {
 background-color:#000000 !important; /* Black */
 }
 
-select, textarea, tr, input, #element, #ticker, #acceptCookiesDiv, .big_canvas, .sprinkle-widget, .header, .header_small_small, .thread, .message_old, .message_old_answer, .message_body_content, .ShowExtraInfo, .threadheadold, .mess, .movie_pop, .canvas, .canvas_grade0 {
+select, textarea, tr, input, #element, #ticker, #acceptCookiesDiv, .big_canvas, .sprinkle-widget, .header, .header_small_small, .thread, .message_old, .message_old_answer, .message_body_content, .ShowExtraInfo, .threadheadold, .mess, .movie_pop, .canvas, .canvas_grade0, .even {
 background-color:#111111 !important; /* Black grey */
 }
 
