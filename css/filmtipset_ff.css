@@ -12,7 +12,7 @@ body, .social, #topSearchField, .odd {
 background-color:#000000 !important; /* Black */
 }
 
-select, textarea, tr, input, #element, #ticker, #acceptCookiesDiv, .big_canvas, .sprinkle-widget, .header, .header_small_small, .thread, .message_old, .message_old_answer, .message_body_content, .ShowExtraInfo, .threadheadold, .mess, .movie_pop, .canvas, .canvas_grade0, .even {
+select, textarea, tr, input, #element, #ticker, #acceptCookiesDiv, .forumcontent, .big_canvas, .sprinkle-widget, .header, .header_small_small, .thread, .message_old, .message_old_answer, .message_body_content, .ShowExtraInfo, .threadheadold, .mess, .movie_pop, .canvas, .canvas_grade0, .even {
 background-color:#111111 !important; /* Black grey */
 }
 
@@ -74,6 +74,10 @@ border-bottom: 1px solid #c15200 !important;
 
 table, .headnew, .headold, .mess, .message_sort_header, .message_body_content, .movie_pop {
 border-color: #6A6A6A !important;
+}
+
+.forumcontent {
+border-color: #111111 !important;
 }
 
 div, td, .social {
