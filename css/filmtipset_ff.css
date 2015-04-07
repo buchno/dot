@@ -47,6 +47,10 @@ background-color: #678e5a !important;
 .row, .back_row, .front_row {
 background-image: none !important;
 }
+
+div[style] { /* for inline css */
+background: none !important;
+}
   
 
 /* Border */
