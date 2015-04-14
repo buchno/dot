@@ -47,6 +47,10 @@ background-color: #678e5a !important;
 .row, .back_row, .front_row {
 background-image: none !important;
 }
+
+.spklw-post { /* banners */
+background-color: none !important;
+}
   
 
 /* Border */
